@@ -46,6 +46,6 @@
   }
 }
 .activeCard {
- color: red;
+ color: rgb(192, 16, 16);
  background: BurlyWood;
 }
