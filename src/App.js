@@ -1,17 +1,22 @@
 import React from 'react';
-import WordCard from './WordCard';
 import './App.css';
-    const word = "Hello";
+import WordCard from "./WordCard"
 function App() {
- return (
-  <div>
-    {
-  <WordCard value="hello"/>
-    }
-  </div>
-
-  );
-  }
-
+  return (
+  <div className="App">
+    <header className="App-header">
+        <div>
+        <WordCard value="hello"/>
+        </div>
+        <p>
+          Welcome To my Game 
+          </p>
+          <p>
+            Created By PANDORA
+            </p>
+            </header>
+            </div>
+        );
+       
+}
 export default App;
-
